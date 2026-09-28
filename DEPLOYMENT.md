@@ -84,6 +84,13 @@ HTTP/1.1 200 OK
 # 3. POST /ask không có API key
 HTTP/1.1 401 Unauthorized
 {"detail":"invalid or missing API key"}
+
+# 4. POST /ask có API key
+HTTP/1.1 200 OK
+{"answer":"Với What is deploy, cách làm phổ biến trong production là đặt một lớp gateway phía trước để lo authentication, rate limiting và bảo vệ chi phí.","user_id":"sv-test","history_length":0,"cost_usd":2.145e-05,"tokens":{"in":3,"out":35}}
+
+# 5. Rate limit — 15 lần liên tiếp (lệnh 4 đã dùng 1 lượt trong hạn mức 10/phút)
+200 200 200 200 200 200 200 200 200 429 429 429 429 429 429
 ```
 
 ## Ảnh Chụp Màn Hình
