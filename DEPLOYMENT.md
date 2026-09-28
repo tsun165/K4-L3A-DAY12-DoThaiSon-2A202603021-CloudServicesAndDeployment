@@ -10,9 +10,9 @@
 
 | Mục | Nội dung |
 |-----|----------|
-| Họ và tên | (điền họ tên) |
-| Mã học viên | (điền mã học viên) |
-| Repo | (điền link repo K4-L3A-DAY12-HoVaTen-MSSV-CloudServicesAndDeployment) |
+| Họ và tên | Đỗ Thái Sơn |
+| Mã học viên | 2A202603021 |
+| Repo | https://github.com/tsun165/K4-L3A-DAY12-DoThaiSon-2A202603021-CloudServicesAndDeployment |
 
 ## Service
 
