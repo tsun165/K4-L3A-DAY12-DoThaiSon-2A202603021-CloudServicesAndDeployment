@@ -4,3 +4,17 @@
 
 .git
 .gitignore
+
+# Secret
+.env
+
+# Môi trường ảo và cache Python
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+
+# Không cần lúc chạy
+tests
+screenshots
